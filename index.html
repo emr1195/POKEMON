@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/pokeball.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-sacale=1, maximun-scale=1, minimun-sacle=1">
+    <title>Pokemon</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <div class="label">
+                    <div class="logo"><img src="img/pokebal.png" alt=""></div>
+                    <p>Pikachu N°025</p></div>
+                <div class="first-info"><p>Cuanto más potente es la energía eléctrica que genera este Pokémon, más suaves y elásticas se vuelven las bolsas de sus mejillas.</p></div>
+                <div class="evop">
+                    <img src="img/evop.png" alt="">
+                </div>
+            </div>
+            <div class="slide second">
+                <div class="label">
+                    <div class="logo"><img src="img/pokebal.png" alt=""></div>
+                    <p>Charmander N°004</p></div>
+                <div class="second-info"><p>Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola.</p></div>
+                <div class="evoc">
+                    <img src="img/evoc.png" alt="">
+                </div>
+            </div>
+            <div class="slide third">
+                <div class="label">
+                    <div class="logo"><img src="img/pokebal.png" alt=""></div>
+                    <p>Squirtle N°007</p></div>
+                <div class="first-info"><p>Cuando retrae su largo cuello en el caparazón, dispara agua a una presión increíble.</p></div>
+                <div class="evos">
+                    <img src="img/evos.png" alt="">
+                </div>
+            </div>
+            <div class="slide fourth">
+                <div class="label">
+                    <div class="logo"><img src="img/pokebal.png" alt=""></div>
+                    <p>Bulbasaur N°001</p></div>
+                <div class="fourth-info"><p>Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.</p></div>
+                <div class="evob">
+                    <img src="img/evob.png" alt="">
+                </div>
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById("radio" + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 5000);
+        </script>
+
+    
+    
+</body>
+</html>
