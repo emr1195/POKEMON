@@ -81,7 +81,7 @@ body{
 }
 
 .second{
-    background: url(../img/carwall.jpg);
+    background: url(https://raw.githubusercontent.com/emr1195/POKEMON/main/img/carwall.jpg);
     background-size: cover;
 }
 
@@ -111,7 +111,7 @@ body{
 }
 
 .third{
-    background: url(../img/squrtlewall.png);
+    background: url(https://raw.githubusercontent.com/emr1195/POKEMON/main/img/squrtlewall.png);
     background-size: cover;
 }
 
@@ -142,7 +142,7 @@ body{
 
 
 .fourth{
-    background: url(../img/yQ9Ylw.webp);
+    background: url(https://raw.githubusercontent.com/emr1195/POKEMON/main/img/yQ9Ylw.webp);
     background-size: cover;
 }
 
